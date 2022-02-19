@@ -10,5 +10,5 @@ function subarraySum(a, length) {
     }
     return finalMaxSum;
 }
-var array = [-2, 1, 2, 3, 6, -5, -6, -7, 2, 9];
+var array = [-2, 1, 2, 3, 4, -5, -6, -7, 2, 9];
 console.log("final max sum:", subarraySum(array, array.length));
